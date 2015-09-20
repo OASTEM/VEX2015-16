@@ -6,8 +6,7 @@ task main()
 {
 	bMotorReflected[PORT_L];
 	while(true){
-		//motor[PORT_L] = SPEED;
-		if(vexRT[Btn8R] > 0 || vexRT[Btn6U] > 0){
+x		if(vexRT[Btn8R] > 0 || vexRT[Btn6U] > 0){
 			motor[PORT_R] = SPEED;
 		}else{
 			motor[PORT_R] = 0;
